@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "HaNguyen",
+    "motivations": "I am driven by a strong belief in the potential of blockchain technology to promote transparency, fairness, and decentralization. As a Cardano Ambassador and DRep Pioneer Leader, I am committed to contributing to the growth of the Cardano ecosystem, especially in Vietnam and Japan. I aspire to build a vibrant and inclusive Cardano community where every member can meaningfully participate in decentralized governance.\nMy passion for Cardano goes beyond organizing events and connecting communities; it extends to fostering innovation and supporting the growth of the DRep community. I aim to bring blockchain technology closer to businesses and universities, helping to create a better and more sustainable future through this technology. The certifications and experience I have gained from Emurgo and the Cardano Foundation demonstrate my dedication to enhancing my knowledge and skills, bringing maximum value to the community I serve.\n",
+    "objectives": "As a DRep Cardano - DRep Pioneer Leader, my objectives are to:\n\n●Fairly and transparently select and vote for proposals that positively impact the development of the Cardano Blockchain.\n●Support the Cardano DRep community, especially the DReps in Vietnam and Japan, to thrive and fulfill their roles effectively.\n●Assist in building a strong and comprehensive ADA-holder community and promote decentralized governance.\n",
+    "paymentAddress": "addr1q8u3w8fjxapypuqvcm2lrqgkpz9pepgf0k4xvv80zj6newmrtq4w7scyuu2m9g8mxtrmnefjzv0gz2dd4r9zfcmq5g0spg9x79",
+    "qualifications": "Cardano Ambassador & Meetup Organizer: Spearheading community engagement and events to promote the Cardano ecosystem.\nDRep Pioneer Leader: Leading decentralized representation and governance efforts within the Cardano community.\nAdministrator, Cardano ADA Vietnam Community: Overseeing community activities and fostering a strong network of Cardano enthusiasts in Vietnam.\n\nCatalyst Involvement:\nCommunity Reviewer: Serving as a Proposal Assessor (PA) and Veteran Proposal Assessor (vPA) to evaluate community proposals.\nCo-Organizer, Catalyst Working Group: Coordinating efforts to drive collaboration and innovation within the Catalyst community.\nFunded Proposer: Successfully securing funding for initiatives that contribute to Cardano's growth.\n\nCertifications:\nBlockchain Business Consultant Certificate from Emurgo\nCardano Blockchain Certified Associate (CBCA) from the Cardano Foundation\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "My Twitter",
+        "uri": "https://x.com/Hahero7"
+      },
+      {
+        "@type": "Link",
+        "label": "My Cardano Forum Activity",
+        "uri": "https://forum.cardano.org/u/hakochan/activity"
+      },
+      {
+        "@type": "Link",
+        "label": "ProSkills39 Academy - Learn Cardano Knowledge and Skills",
+        "uri": "https://proskills39academy.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "DRep Profile",
+        "uri": "https://tempo.vote/DRep-HaNguyen"
+      }
+    ]
+  }
+}
